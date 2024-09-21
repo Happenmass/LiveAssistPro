@@ -42,7 +42,8 @@ def create_stream_generate(text_queue, stream):
 
         # 发送文本消息
         sdk.startStreamInputTts(
-            voice="cosyvoice-huxianfeng-c28d85c",       # 语音合成说话人
+            # voice="cosyvoice-huxianfeng-c28d85c",       # 语音合成说话人
+            voice=os.getenv("SPEAKER"),       # 语音合成说话人
             aformat="wav",              # 合成音频格式
             sample_rate=22050,          # 合成音频采样率
             volume=80,                  # 合成音频的音量
