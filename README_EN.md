@@ -1,6 +1,6 @@
 # LiveAssistPro
 
-[中文](README_CN.md) | English
+[中文](README.md) | English
 
 LiveAssistPro is an AI-driven live streaming assistant that automates tasks and creates interactive experiences by monitoring screen content and engaging in real-time conversations. It leverages the Zhipu AI vision model to analyze the screen and detect user speech to facilitate interaction with a role-playing AI assistant.
 
